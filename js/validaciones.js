@@ -29,34 +29,31 @@ const mensajesDeError = {
     nombre:{
         valueMissing: "El campo nombre no puede estar vacío"
     },
-    email:{
+    direccion:{
         valueMissing: "El campo email no puede estar vacío",
-        typeMisMatch: "El correo no es valido"
-    },
-    password:{
-        valueMissing: "El campo contraseña no puede estar vacío",
-        patternMisMatch: "Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
-    },
-    nacimiento:{
-        valueMissing: "El campo fecha no puede estar vacío",
-        customError: "Debes tener al menos 18 años de edad"
+        typeMisMatch: "La direccion debe contener de 10-40 caracteres"
     },
     numero:{
         valueMissing: "Este campo no puede estar vacío",
         patternMisMatch: "El formato requerido es XXX XXX XXXX 10 números"
     },
-    direccion:{
-        valueMissing: "Este campo no puede estar vacío",
-        patternMisMatch: "La dirección debe contener de 10-40 caracteres"
-    },
     ciudad:{
-        valueMissing: "Este campo no puede estar vacío",
+        valueMissing: "Este campo ciudad no puede estar vacío",
         patternMisMatch: "La ciudad debe contener de 10-40 caracteres"
     },
-    departamento:{
-        valueMissing: "Este campo no puede estar vacío",
+    barrio:{
+        valueMissing: "Este campo barrio no puede estar vacío",
         patternMisMatch: "El estado debe contener de 10-40 caracteres"
     },
+    casaapto:{
+        valueMissing: "El campo torre y apto no puede estar vacío",
+        patternMisMatch: "El estado debe contener de 10-40 caracteres"
+    },
+    observaciones:{
+        valueMissing: "El campo observaciones no puede estar vacío",
+        customError: "Debes indicar la observacion a detalle"
+    },
+    
 }
 
 

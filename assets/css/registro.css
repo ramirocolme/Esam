@@ -5,6 +5,9 @@
 
   padding-top: 1rem;
 }
+form textarea{
+  resize: none;
+}
 
 .registry-header__logo {
   width: 2.625rem;

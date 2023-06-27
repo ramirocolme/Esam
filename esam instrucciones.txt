@@ -1,0 +1,17 @@
+Recogida y entrega
+Persona de contacto
+Direccion 
+Telefono
+Ciudad
+Barrio
+casa o apto
+observaciones
+
+Informacion pago (pago del servicio recogida o entrega)
+Recaudo (Valor del recaudo)
+Observaciones del lugar de la diligencia.
+Tipo de diligencia:
+	Tramite (type text) observacion
+	Recogida y/o Entrega de paquete
+	
+	
